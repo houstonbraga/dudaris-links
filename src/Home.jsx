@@ -7,6 +7,7 @@ import { ArrowDownCircle } from "lucide-react";
 import Buttons from "./components/Buttons";
 import photo from "./assets/duda.png";
 import sticky from "./assets/sticky.png";
+import detailBottom from "./assets/detalhe-2.png";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -60,6 +61,11 @@ const Home = () => {
               width={75}
               height={75}
               className="absolute top-15 right-10"
+            />
+            <img
+              src={detailBottom}
+              alt="detail-bottom"
+              className="absolute -z-10 left-0 right-0 bottom-30"
             />
           </div>
         </LayoutConfig>

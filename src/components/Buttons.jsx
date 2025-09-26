@@ -3,7 +3,7 @@ import { Globe } from "lucide-react";
 const Buttons = () => {
   const handleWhatsAppClick = () => {
     // Tenta abrir o WhatsApp Web primeiro
-    const whatsappUrl = "https://wa.me/558191996325";
+    const whatsappUrl = "https://wa.me/5581988611833";
 
     // Verifica se é mobile
     const isMobile =
