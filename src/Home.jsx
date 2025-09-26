@@ -4,7 +4,7 @@ import logo from "./assets/logo.png";
 import { ArrowDownCircle } from "lucide-react";
 import Buttons from "./components/Buttons";
 import photo from "./assets/duda.svg";
-import sticky from "./assets/sticky.svg"
+import sticky from "./assets/sticky.svg";
 
 const Home = () => {
   return (
@@ -23,10 +23,22 @@ const Home = () => {
           <Buttons />
           <div className="relative">
             <img src={photo} alt="photo-duda" />
-            <img src={sticky} alt="sticky-dudaris" width={100} height={100} className="absolute -left-16 top-0"/>
+            <img
+              src={sticky}
+              alt="sticky-dudaris"
+              width={100}
+              height={100}
+              className="absolute -left-16 top-0"
+            />
           </div>
         </div>
-        <img src={sticky} alt="sticky-dudaris" width={75} height={75} className="absolute top-15 right-10"/>
+        <img
+          src={sticky}
+          alt="sticky-dudaris"
+          width={75}
+          height={75}
+          className="absolute top-15 right-10"
+        />
       </div>
     </LayoutConfig>
   );
