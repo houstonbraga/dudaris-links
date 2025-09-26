@@ -1,10 +1,10 @@
 import LayoutConfig from "./components/LayoutConfig";
-import detailTop from "./assets/detail-top.svg";
+import detailTop from "./assets/detail-top.png";
 import logo from "./assets/logo.png";
 import { ArrowDownCircle } from "lucide-react";
 import Buttons from "./components/Buttons";
-import photo from "./assets/duda.svg";
-import sticky from "./assets/sticky.svg";
+import photo from "./assets/duda.png";
+import sticky from "./assets/sticky.png";
 
 const Home = () => {
   return (
